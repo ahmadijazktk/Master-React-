@@ -1,9 +1,10 @@
 import "../App.css"
 const Component = () => {
+  
   return (
     
-    <div className="card">
-      <h1>This Simple card</h1>
+    <div className="container">
+      <h1 className="text-danger">This Simple card</h1>
     </div>
   )
 }
