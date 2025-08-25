@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.menus{
+    display :flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 241, 162);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+li {
+    display: inline;
+    padding: 20px;
+    
+}
+ li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+}
+
+.logo{
+    font-weight: 60;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px ;
+}
+
+.buton a {
+    background-color: rgba(35, 34, 36, 0.815);
+    padding: 10px 30px 12px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.buton a:hover{
+    background-color: rgb(255, 234, 140);
+    color : black;
+    animation-duration: 2ms;
+}
