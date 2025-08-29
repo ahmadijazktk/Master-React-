@@ -1,0 +1,16 @@
+.p1{
+   
+    height: 100vh;
+    position: fixed;
+    left: -100%;
+    text-align: left;
+    transform: 0.5s;
+     background-color: yellow;
+}
+.bt{
+    float: right;
+}
+
+.activemenu {
+    left: 0%;
+}
