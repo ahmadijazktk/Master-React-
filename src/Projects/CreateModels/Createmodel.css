@@ -1,0 +1,34 @@
+.ShowModel{
+    background-color: rgba(0, 0, 0, 0.281);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    transition: 0.3s;
+    display: none;
+}
+.activemodel{
+    display: block;
+}
+.ShowCard{
+    height: 320px;
+    width: 320px;
+    background-color: white;
+    position: fixed;
+    left: 50%;
+    top: -60%;
+    transform: translate(-50%);
+    padding: 10px 50px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.activecard {
+    top: 30%;
+}
+.btn1{
+    position: fixed;
+    padding: 10px 15px;
+    right: -30px;
+    top:150px;
+    transform: rotate(90deg);
+    
+}
